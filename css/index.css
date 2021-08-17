@@ -1,0 +1,64 @@
+body {
+	font-family: sans-serif;
+	background-color: gray;
+}
+.container {
+	background-color: white;
+}
+h1, h2 {
+ 	font-weight: bold;
+ 	margin-bottom: 20px;
+}
+.header img{
+	MAX-width: 100%;
+	height: auto;
+}
+.header {
+    height: auto;
+	background-color: black;
+}
+#header #navbarNav ul {
+	padding: 5px;
+    margin:1px;
+    background-color:Gainsboro;
+    list-style:none;
+    font-weight: bold;
+
+}
+#header #navbarNav ul li a{
+	padding: 5px 11px;
+    margin-left: 15px;
+    background-color: Gainsboro;
+    color: DodgerBlue;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: .3em
+
+}
+#header #navbarNav ul li a:hover {
+    background-color: white;
+    color: black; 
+    font-weight: bold;
+    transition: 0.5s;
+    opacity: 0.9;	
+}
+.main, .main2 {
+	height: auto;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+.main img {
+	margin-top: 50px;
+	height: auto;
+}
+.footer {
+	background-color: black;
+	font-family: sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-30%);
+}
